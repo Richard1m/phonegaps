@@ -1,0 +1,42 @@
+{
+    "name": "@runkit/richard1m_phonegap",
+    "version": "0.0.0-master",
+    "dependencies": {
+        "pgb-cli": {
+            "version": "1.1.3",
+            "from": "https://registry.npmjs.org/pgb-cli/-/pgb-cli-1.1.3.tgz",
+            "dependencies": {
+                "easy-utf8-table": {
+                    "version": "0.2.0",
+                    "from": "https://registry.npmjs.org/easy-utf8-table/-/easy-utf8-table-0.2.0.tgz",
+                    "dependencies": {
+                        "visualwidth": {
+                            "version": "0.1.0",
+                            "from": "https://registry.npmjs.org/visualwidth/-/visualwidth-0.1.0.tgz"
+                        }
+                    }
+                },
+                "pgb-api": {
+                    "version": "1.1.2",
+                    "from": "https://registry.npmjs.org/pgb-api/-/pgb-api-1.1.2.tgz",
+                    "dependencies": {
+                        "yazl": {
+                            "version": "2.5.1",
+                            "from": "https://registry.npmjs.org/yazl/-/yazl-2.5.1.tgz",
+                            "dependencies": {
+                                "buffer-crc32": {
+                                    "version": "0.2.13",
+                                    "from": "https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz"
+                                }
+                            }
+                        }
+                    }
+                },
+                "visualwidth": {
+                    "version": "0.1.0",
+                    "from": "https://registry.npmjs.org/visualwidth/-/visualwidth-0.1.0.tgz"
+                }
+            }
+        }
+    }
+}
